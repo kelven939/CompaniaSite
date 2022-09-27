@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--<div class="container"> -->
+    <form action="cadastro.php" method="get" name="formCada" id="form" onsubmit="return validar()">
+        <h1 class="h1">Bem-vindo ao Total Service</h1>
+        <input type="text" name="primeironome" class="nome" id="nome1" placeholder="Nome">
+        <input type="text" name="segundonome" class="apelido" id="nome1" placeholder="Apelido">
+        <input type="password" name="senha" id="nome2" class="checked" placeholder="Senha">
+        <p class="p1">Visualizar a senha:</p>
+        <input type="checkbox" name="check" id="checksenha" onclick="checkpwd()">
+        <input type="submit" value="cadastrar" id="sub">
+    </form>
+    <!--</div> -->
+    <script src="main.js"></script>
+
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+</html>

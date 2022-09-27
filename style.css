@@ -1,0 +1,215 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+    body{
+        background-image: url(diversao.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        height: 100vh;
+        width: 100vw;
+    }
+    /*.container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }*/
+    #form{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        border: 0px solid black;
+        height: 100vh;
+    }
+    #nome1, #nome2{
+        outline: none;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.1);
+        color: white;
+        font: 12px verdana, arial, sans-serif;
+        border: 1px solid white;
+        margin: 2px;
+        margin-top: 5px;
+        height: 40px;
+        width: 200px;
+        border-radius: 10px;
+        text-indent: 4px;
+    }
+    ::-webkit-input-placeholder{
+        color: white;
+        font: 12px verdana, arial, sans-serif;
+    }
+    #checksenha{
+        border: 1px solid white;
+        height: 25px;
+        width: 35px;
+    }
+    input[type="submit"]{
+        height: 40px;
+        width: 200px;
+        border: 0px;
+        border-radius: 10px;
+        margin: 10px;
+        text-transform: uppercase;
+        color: white;
+        background-color: orange;
+        cursor: pointer;
+}
+
+@media screen and(max-width: 760px){
+    body{
+        background-image: url(diversao.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 1000px;
+    }
+    #form{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        border: 0px solid black;
+        height: 100vh;
+    }
+    #nome1, #nome2{
+        outline: none;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.1);
+        border: 1px solid white;
+        margin: 2px;
+        margin-top: 5px;
+        height: 40px;
+        width: 200px;
+        border-radius: 10px;
+        text-indent: 4px;
+    }
+    ::-webkit-input-placeholder{
+        color: white;
+        font: 12px verdana, arial, sans-serif;
+    }
+    #checksenha{
+        border: 1px solid white;
+        height: 25px;
+        width: 35px;
+    }
+    input[type="submit"]{
+        height: 40px;
+        width: 200px;
+        border: 0px;
+        outline: none;
+        border-radius: 10px;
+        margin: 10px;
+        text-transform: uppercase;
+        color: white;
+        background-color: orange;
+        cursor: pointer;
+        }
+    }
+    
+    @media screen and(max-width: 600px){
+        body{
+            background-image: url(diversao.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 1000px;
+        }
+        #form{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center;
+            border: 0px solid black;
+            height: 100vh;
+        }
+        #nome1, #nome2{
+            outline: none;
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.1);
+            border: 1px solid white;
+            margin: 2px;
+            margin-top: 5px;
+            height: 40px;
+            width: 200px;
+            border-radius: 10px;
+            text-indent: 4px;
+        }
+        ::-webkit-input-placeholder{
+            color: white;
+            font: 12px verdana, arial, sans-serif;
+        }
+        #checksenha{
+            border: 1px solid white;
+            height: 25px;
+            width: 35px;
+        }
+        input[type="submit"]{
+            height: 40px;
+            width: 200px;
+            border: 0px;
+            outline: none;
+            border-radius: 10px;
+            margin: 10px;
+            text-transform: uppercase;
+            color: white;
+            background-color: orange;
+            cursor: pointer;
+            }
+        }
+        
+    @media only screen and(max-width: 450px){
+        body{
+            background-image: url(diversao.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 1000px;
+        }
+        #form{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center;
+            border: 0px solid black;
+            height: 100vh;
+        }
+        #nome1, #nome2{
+            outline: none;
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.1);
+            border: 1px solid white;
+            margin: 2px;
+            margin-top: 5px;
+            height: 40px;
+            width: 200px;
+            border-radius: 10px;
+            text-indent: 4px;
+        }
+        ::-webkit-input-placeholder{
+            color: white;
+            font: 12px verdana, arial, sans-serif;
+        }
+        #checksenha{
+            border: 1px solid white;
+            height: 25px;
+            width: 35px;
+        }
+        input[type="submit"]{
+            height: 40px;
+            width: 200px;
+            border: 0px;
+            outline: none;
+            border-radius: 10px;
+            margin: 10px;
+            text-transform: uppercase;
+            color: white;
+            background-color: orange;
+            cursor: pointer;
+            }
+        }
